@@ -79,3 +79,29 @@ text-decoration: none;
   margin: 10px;
   border-radius: 15px;
 }
+
+.container-1 {
+  width: 1220px;
+  margin: auto;
+}
+
+.mais-vendidos{
+padding: 5px;
+padding-left: 5px;
+padding-right: 5px;
+margin: auto;
+margin-left: 43%;
+margin-right: 43%;
+background-color: #2e384b;
+border-radius: 30px;
+margin-top: -14px;
+}
+
+.mais-vendidos p{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mais-vendidos a{
+  text-decoration: none;
+}
