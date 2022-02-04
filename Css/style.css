@@ -80,6 +80,11 @@ text-decoration: none;
   border-radius: 15px;
 }
 
+.all-container {
+  background-color: #1F2633;
+
+}
+
 .container-1 {
   width: 1220px;
   margin: auto;
@@ -94,7 +99,7 @@ margin-left: 43%;
 margin-right: 43%;
 background-color: #2e384b;
 border-radius: 30px;
-margin-top: -14px;
+margin-top: -20px;
 }
 
 .mais-vendidos p{
@@ -104,4 +109,8 @@ margin-top: -14px;
 
 .mais-vendidos a{
   text-decoration: none;
+
+}
+
+.content-1 {
 }
