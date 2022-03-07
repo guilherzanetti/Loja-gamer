@@ -90,6 +90,7 @@ text-decoration: none;
 }
 
 .container-1 {
+  display: flex;
   width: 1220px;
   margin: auto;
 }
