@@ -95,3 +95,8 @@ header {
     font-family: 'Poppins', sans-serif;
     size: 30px;
   }
+  
+  .cadastro-flex{
+    display: flex;
+    justify-content: space-between;
+  }
