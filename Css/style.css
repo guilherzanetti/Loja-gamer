@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,7 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
 .container-grid {
     max-width: 1280px;
 
@@ -34,12 +36,14 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .menu a {
     color: #ffffff;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 }
+
 .menu {
     width: 500px;
     display: flex;
@@ -52,6 +56,7 @@ header {
     background-size: cover;
     padding-bottom: 15%;
 }
+
 .texto-banner {
     max-width: 1280px;
 
@@ -76,6 +81,7 @@ header {
 .nav-cadastro {
     padding: 10px;
     text-decoration: none;
+    align-items: center;
 }
 
 .btn-cadastro {
@@ -83,6 +89,7 @@ header {
     margin: 10px;
     color: #fff846;
     font-family: "Poppins", sans-serif;
+    align-items: center;
 }
 
 .btn-entrar {
@@ -163,10 +170,12 @@ header {
     font-family: "Poppins", sans-serif;
     transition: 500ms;
 }
+
 .btn-comprar:hover {
     background-color: #0c92ff;
     transition: 500ms;
 }
+
 .text-comprar {
     text-decoration: none;
 }
@@ -194,16 +203,16 @@ header {
     width: 200px;
 }
 
-.footer{
+.footer {
     background-color: #2E5579;
 }
 
-.f-cards{
+.f-cards {
 
     display: flex;
 }
 
-.f-conteudo{
+.f-conteudo {
     background-color: #2a4c6b;
     padding: 20px;
     margin: 2%;
@@ -213,13 +222,100 @@ header {
     align-items: center;
 }
 
-.btn-face{
+.btn-face {
     color: #dfdfdf;
     padding: 5%;
 }
 
-.btn-inst{    color: #dfdfdf;
+.btn-inst {
+    color: #dfdfdf;
 }
+
+/* BOTÃO RESPONSIVO MENU */
+
+.ul-menu {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+nav,
+.ul-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.li-menu {
+    padding: 0 20px;
+}
+
+.btn-resp {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+.li-menu:hover,
+.h1-menu:hover,
+.btn-resp:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn-resp:focus~ul {
+    height: 260px;
+}
+
+@media (max-width: 700px) {
+
+    nav,
+    .ul-menu {
+        flex-direction: column;
+    }
+
+    .ul-menu {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    .btn-resp {
+        display: flex;
+    }
+
+    .li-menu,
+    .ul-menu {
+        width: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+
+    .ul-menu {
+        display: none;
+    }
+
+
+}
+
+/* Condiguração tela responsiva */
 
 @media (max-width: 600px) {
     header {
@@ -243,7 +339,7 @@ header {
     }
 
     .nav-cadastro {
-       display: none;
+        display: none;
     }
 
     /* NEW */
@@ -251,6 +347,7 @@ header {
         width: 100%;
         max-width: 1280px;
     }
+
     .container-1 {
         flex-direction: column;
     }
@@ -267,16 +364,16 @@ header {
         margin-top: -20px;
     }
 
-    .footer{
+    .footer {
         background-color: #2E5579;
     }
-    
-    .f-cards{
+
+    .f-cards {
         display: flex;
         flex-direction: column;
     }
-    
-    .f-conteudo{
+
+    .f-conteudo {
         background-color: #2a4c6b;
         padding: 20px;
         margin: 2%;

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1, p {
+h1,
+p {
   color: #FFFFFF;
 }
 
@@ -17,93 +19,97 @@ header {
   padding-bottom: 1%;
 }
 
-.menu a{
+.menu a {
   color: #FFFFFF;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
-.menu{
+
+.menu {
 
   /* NEW */
 
   margin-right: 3%;
 
 }
-  
 
-  .container-grid {
-    max-width: 1280px;
 
-    height: 100%;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.container-grid {
+  max-width: 1280px;
 
-  /* FORMULÁRIO */
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  body{
-    background-color: #313b4e;
-  }
+/* FORMULÁRIO */
 
-  form {
-    background-color: #42516d;
-    padding: 10px;
-    max-width: 500px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 10px;
-  }
-  form input[type=text], form input[type=password]{
-    width: 100%;
-    height: 30px;
-    border-radius: 2px;
-    border: 1px solid #ccc;
-    padding-left: 5px;
-    margin: 10px 0px;
-  }
-  form input[type=submit]{
-    width: 100%;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 10px;
-    background-color: #6098ff;
-    border: 0;
-   font-family: 'Poppins', sans-serif;
-   color: #FFFFFF;
-   font-size: 18px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   transition: 1s;
-  }
+body {
+  background-color: #313b4e;
+}
 
-  form input[type=submit]:focus {
-    outline: 0;
-  }
+form {
+  background-color: #42516d;
+  padding: 10px;
+  max-width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
 
-  form input[type=submit]:hover {
-    background-color: #1f6dff ;
-    transition: 1s;
-  }
-  
-  h3 {
-    color: #e6f0ff;
-    font-family: 'Poppins', sans-serif;
+form input[type=text],
+form input[type=password] {
+  width: 100%;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  margin: 10px 0px;
+}
 
-  }
-  
-  .cadastre-se {
-    color: #e6f0ff;
-    font-family: 'Poppins', sans-serif;
-    size: 30px;
-  }
-  
-  .cadastro-flex{
-    display: flex;
-    justify-content: space-between;
-  }
+form input[type=submit] {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #6098ff;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+form input[type=submit]:focus {
+  outline: 0;
+}
+
+form input[type=submit]:hover {
+  background-color: #1f6dff;
+  transition: 1s;
+}
+
+h3 {
+  color: #e6f0ff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.cadastre-se {
+  color: #e6f0ff;
+  font-family: 'Poppins', sans-serif;
+  size: 30px;
+}
+
+.cadastro-flex {
+  display: flex;
+  justify-content: space-between;
+}
